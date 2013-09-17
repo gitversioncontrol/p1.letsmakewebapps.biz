@@ -1,25 +1,30 @@
 @CHARSET "UTF-8";
-body
-{
-background-color:#d0e4fe;
-}
+
 h1
 {
 color:orange;
 text-align:center;
 text-decoration: underline;
+font-family:"Times New Roman";
+}
+body
+{
+background-color:#d0e4fe;
+font-family: "Comic Sans MS";
 }
 h2{
 	text-decoration: underline;
 }
 p
 {
-font-family:"Times New Roman";
+<!-- font-family:"Times New Roman"; -->
 font-size:20px;
 }
-#heading1 { background-image: url(p1.jpg);
-background-repeat: no-repeat;
-background-position: bottom; padding-top:68px;
-margin-bottom:50px;
+img 
+{
+float:right;
 }
-- See more at: http://www.csstutorial.net/css_misc_images.php#sthash.u3MfmxK4.dpuf
+#imgclear{
+	clear:both;
+	float:left;
+}
